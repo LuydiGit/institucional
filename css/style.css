@@ -6,9 +6,10 @@ body {
 }
 
 header {
-    background-color: #419353;
+    background-color: #3FC868;
     color: #fff;
     padding: 10px 0;
+    font-size: 14px;
 }
 
 nav ul {
@@ -19,11 +20,17 @@ nav ul {
     justify-content: center;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+}
+
 nav ul li {
     margin: 0 15px;
 }
 
-nav ul li a {
+ul li {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -37,8 +44,9 @@ nav ul li a {
 
 .hero h1 {
     margin: 0;
+    padding: 20px;
     font-size: 2.5em;
-    color: #333;
+    color: #1e1e1e;
 }
 
 .hero p {
@@ -49,11 +57,11 @@ nav ul li a {
 .highlights {
     display: flex;
     justify-content: space-around;
-    padding: 20px 0;
+    padding: 20px;
 }
 
 .highlight {
-    width: 45%;
+    width: 26%;
     background-color: #F4F4F4;
     padding: 20px;
     text-align: center;
@@ -61,7 +69,7 @@ nav ul li a {
 }
 
 .highlight h2 {
-    margin-top: 0;
+    margin: 10px;
 }
 
 .about,
@@ -71,7 +79,7 @@ nav ul li a {
 }
 
 footer {
-    background-color: #419353;
+    background-color: #3FC868;
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -86,12 +94,58 @@ footer {
     border: 0;
 }
 
+/* Estilo comum para todos os botões */
 button {
-    background-color: white;
     border-radius: 20px;
-    border-width: 0px;
-    border-color: #e4e4e4;
+    border: 0;
     margin: 10px;
     padding: 20px;
+    font-size: 16px;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Estilo específico para o botão verde */
+.btnS {
+    background-color: #3FC868;
+    color: white; /* Cor da fonte */
+}
+
+.btnS:hover {
+    background-color: rgba(50, 205, 50, 0.8); /* verde clara com transparência */
+    transform: scale(1.1); /* aumenta o tamanho do botão */
+    color: white; /* muda a cor da fonte para branca */
+}
+
+/* Estilo específico para o outro botão */
+.btnC {
+    background-color: white; /* Alterar a cor conforme necessário */
+    color: #1e1e1e; /* Cor da fonte */
+}
+
+.btnC:hover{
+    background-color: #3FC868; /* cor azul clara com transparência */
+    transform: scale(1.1); /* aumenta o tamanho do botão */
+    color: white; /* muda a cor da fonte para branca */
+}
+
+
+p {
     font-size: 14px;
+}
+
+#tit {
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 50px;
+    font-size: 2em;
+    color: #1e1e1e;
+    font-weight: bold;
+}
+
+.logo {
+    position: relative;
+    width: 70px;
 }
