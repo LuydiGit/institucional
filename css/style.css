@@ -184,14 +184,9 @@ button.btnS .icon {
 
 .historiatex{
     display: flex;
-    width: 70%;
+    width: 80%;
     margin-top: 50px;
-    gap: 50px;
-
-}
-
-.historiatex img{
-    width: 400px;
+    gap: 40px;
 
 }
 
@@ -199,5 +194,13 @@ button.btnS .icon {
     font-size: 40px;
     color: black;
     font-weight: bold;
+
+}
+
+/*Animações alinhamento*/
+.animation {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 
 }
