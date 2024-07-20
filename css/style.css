@@ -63,6 +63,13 @@ ul li {
     padding: 20px;
 }
 
+
+.historia {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
 .highlight {
     width: 26%;
     background-color: #F4F4F4;
@@ -98,38 +105,35 @@ footer {
     border: 0;
 }
 
-/* Estilo comum para todos os botões */
 button {
     border-radius: 20px;
     border: 0;
     margin: 10px;
     padding: 20px;
     font-size: 16px;
-    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    transition: transform 0.9s ease, background-color 0.9s ease, color 0.9s ease;
 }
 
-/* Estilo específico para o botão verde */
 .btnS {
-    background-color: #3FC868;
-    color: white; /* Cor da fonte */
+    background-color: #00D95F;
+    color: white; 
 }
 
 .btnS:hover {
-    background-color: rgba(50, 205, 50, 0.8); /* verde clara com transparência */
-    transform: scale(1.1); /* aumenta o tamanho do botão */
-    color: white; /* muda a cor da fonte para branca */
+    background-color: rgba(50, 205, 50, 0.8);
+    transform: scale(1.1); 
+    color: white; 
 }
 
-/* Estilo específico para o outro botão */
 .btnC {
-    background-color: white; /* Alterar a cor conforme necessário */
-    color: #1e1e1e; /* Cor da fonte */
+    background-color: white;
+    color: #1e1e1e; 
 }
 
 .btnC:hover{
-    background-color: #3FC868; /* cor azul clara com transparência */
-    transform: scale(1.1); /* aumenta o tamanho do botão */
-    color: white; /* muda a cor da fonte para branca */
+    background-color: #3FC868; 
+    transform: scale(1.1); 
+    color: white; 
 }
 
 
@@ -149,7 +153,51 @@ p {
     font-weight: bold;
 }
 
+#tit2 {
+    font-size: 2.5em;
+    color: #00D95F;
+    font-weight: bold;
+}
+
 .logo {
     position: relative;
     width: 70px;
+}
+
+.banner {
+    position: relative;
+    background-image: url('/img/fundosobre.jpg'); 
+    background-size: cover; 
+    background-position: bottom; 
+    height: 50vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 10px;
+}
+
+button.btnS .icon {
+    margin-right: 10px; 
+    width: 15px; 
+    height: 15px;
+}
+
+.historiatex{
+    display: flex;
+    width: 70%;
+    margin-top: 50px;
+    gap: 50px;
+
+}
+
+.historiatex img{
+    width: 400px;
+
+}
+
+.historiatex h1{
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+
 }
