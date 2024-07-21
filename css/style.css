@@ -200,7 +200,14 @@ button.btnS .icon {
 /*Animações alinhamento*/
 .animation {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 
+}
+
+.historiatex text{
+    font-size: 15px;
+    color: black;
+    line-height: 1.5em;
 }
